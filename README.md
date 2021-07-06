@@ -19,7 +19,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -34,14 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![](images/screenShot3colPreviewCards.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Michelle-Lefebvre/3-column-preview-card](https://github.com/Michelle-Lefebvre/3-column-preview-card)
+- Live Site URL: [https://mml-3cols-preview-card.netlify.app/](https://mml-3cols-preview-card.netlify.app/)
 
 ## My process
 
@@ -50,7 +47,6 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -62,12 +58,6 @@ To make cards all the same height:
 	height: calc(100vh / 1.9);
 }
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 

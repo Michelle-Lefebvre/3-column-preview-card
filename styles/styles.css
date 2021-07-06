@@ -26,7 +26,7 @@ body {
 .card {
   color: white;
   flex-grow: 2;
-  height: calc(100vh / 1.9);
+  height: 350px;
   margin: auto;
   padding: 2rem;
   width: calc(275px - 2rem);
@@ -38,7 +38,7 @@ body {
 }
 .card:nth-of-type(1) {
   background-color: var(--color-orange);
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 .card:nth-of-type(2) {
   background-color: var(--color-cyan);
@@ -46,7 +46,7 @@ body {
 }
 .card:nth-of-type(3) {
   background-color: var(--color-dark-cyan);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 8px 8px;
 }
 
 .attribution {
@@ -61,14 +61,16 @@ h1 {
   color: var(--color-light-grey);
   text-transform: uppercase;
   font-family: "Big Shoulders Display", cursive;
-  margin-top: 2rem;
+  font-size: 3em;
   margin-bottom: 0;
+  margin-top: -2rem;
 }
 
 p {
   color: var(--color-white);
   font-family: "Lexend Deca", sans-serif;
   font-size: 1em;
+  margin-top: -2rem;
 }
 
 button {
@@ -77,10 +79,10 @@ button {
   border-radius: 20px;
   bottom: 0;
   flex: 1;
-  font-size: 0.7em;
-  height: 30px;
+  font-size: 1em;
+  height: 40px;
   padding: 10px 15px;
-  width: 100px;
+  width: 120px;
 }
 
 .btn-sedan {
@@ -110,12 +112,38 @@ footer {
     min-width: 350px;
     max-width: 100%;
   }
+
+  .card {
+    height: calc(100vh / 1.9);
+  }
   .card:nth-of-type(1) {
-    border-radius: 5px 0 0 5px;
+    border-radius: 10px 0 0 10px;
   }
+
   .card:nth-of-type(3) {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 10px 10px 0;
   }
+
+  img {
+      width: 80px;
+  }
+
+  h1 {
+      font-size: 3em;
+      margin-top: -2rem;
+  }
+
+  p {
+    margin-top: -2rem;
+  }
+
+  button {
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px 15px;
+    width: 150px;
+  }
+
   footer {
     visibility: visible;
   }
