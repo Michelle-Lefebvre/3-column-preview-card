@@ -71,9 +71,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=zBjt5GC1hxk) - This helped me make all the cards equal height.
-
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [How to Make div Cards of Equal Height with CSS](https://www.youtube.com/watch?v=zBjt5GC1hxk) - This helped me make all the cards equal height.
 
 ## Author
 
